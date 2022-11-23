@@ -1,18 +1,20 @@
 function language(country) {
     if (country=='England') {
-        language=='English'
+        console.log(`English`);
     }
+    
     else if (country=='Spain') {
-        language=='Spanish'
+        console.log(`Spanish`);
     }
-    else if (country=='other'){
-        language=='unknown'
+    else {
+      
+        console.log(`unknown`);
     }
 }
-    console.log(`${country}, ${language}`);
+   
 
    
 
-language('England');
-language('Spain');
-language('other');
+language("Spain");
+language("England");
+language("Bulgaria");
