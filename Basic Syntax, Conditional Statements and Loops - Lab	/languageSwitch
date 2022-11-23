@@ -1,0 +1,22 @@
+function language(country){
+    switch(country)
+    {
+     case "USA":
+     case "England":
+           console.log(`English`);
+      break;
+     case "Spain":
+           console.log(`Spanish`);
+      break;
+     default:
+          console.log(`unknown`);
+         break;
+    }
+}
+
+language("USA");
+language("Spain");
+language("England");
+language("Germany");
+language(4);
+
