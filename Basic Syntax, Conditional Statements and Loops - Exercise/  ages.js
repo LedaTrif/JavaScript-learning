@@ -1,6 +1,6 @@
-function person(age){
+function ages(age){
 let person;
-if(age>0 && age<=2){
+if(age>=0 && age<=2){
     person=`baby`;
     console.log(person);
 }
@@ -26,7 +26,7 @@ console.log(`out of bounds`);
 
 }
 
-person(20);
-person(1);
-person(100);
-person(-1);
+ages(20);
+ages(1);
+ages(100);
+ages(-1);
