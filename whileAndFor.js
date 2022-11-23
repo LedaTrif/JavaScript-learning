@@ -11,4 +11,4 @@ console.log(a);
     
 
 }
-solve();
+solve(3);
