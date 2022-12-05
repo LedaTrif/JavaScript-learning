@@ -20,7 +20,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/reverse.js"
+            "program": "${workspaceFolder}/inPlace.js"
         }
     ]
 }
